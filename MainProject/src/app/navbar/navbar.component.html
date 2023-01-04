@@ -1,0 +1,30 @@
+<nav class="Nav_Bar sticky-top">
+    <div class="Nav_Bar-Left">
+        <div class="Nav_Bar-Brand">
+            <button class="d-block d-md-none Togler-btn" (click)="showSide_Bar = !showSide_Bar">
+                <img id="Toggle-icon" src="assets/Toggle-Button.png"> 
+            </button>
+            <img class="Nav-Brand ms-3" src="../../assets/Company-Logo.png">
+        </div>
+        
+        <div class="Nav_Bar-Items">
+            <a class="Nav_Bar-Link d-none d-md-block" href="#">All Ads</a>
+            <p class="d-none d-md-block"><i class="bi bi-translate"></i>&nbsp;English</p>
+        </div>
+    </div>
+
+    
+    
+
+    <div class="Nav_Bar-Right">
+        <div class="Nav_Bar-Items me-3">
+            <a class="Nav_Bar-Link d-none d-md-block" (click)="go_Account()"><i class="bi bi-whatsapp"></i>&nbsp;Chat</a>
+            <button id="Account-Btn" class="d-none d-md-block" (click)="show_Account = !show_Account"><i class="bi bi-person-circle"></i>&nbsp;Account</button>
+        </div>
+
+        <button class="Post-AD-Btn" (click)="go_Ad_Post()">POST YOUR AD</button>
+    </div>
+
+    <app-sidebar *ngIf="showSide_Bar" class="Side-Panel d-md-none"></app-sidebar>
+    <app-user *ngIf="show_Account" class="Account-Popup"></app-user>
+</nav>

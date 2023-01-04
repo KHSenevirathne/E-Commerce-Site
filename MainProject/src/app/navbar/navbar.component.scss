@@ -1,0 +1,116 @@
+.Nav_Bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    z-index: 1;
+    background-color: rgb(0, 1, 39);
+}
+
+.Nav_Bar-Left{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    left:0px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+}
+
+.Nav_Bar-Brand{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    width:150px;
+}
+
+.Nav-Brand{
+    height:55px;
+    width:auto;
+}
+
+.Togler-btn{
+    background-color: rgba(255, 255, 255, 0);
+    height: 40px;
+    width:45px;
+    border-width: 0;
+}
+
+#Toggle-icon{
+    height: 90%;
+}
+
+.Nav_Bar-Right{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    right:10px;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    color: aliceblue;
+}
+
+.Nav_Bar-Items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 27px;
+    height: 100%;
+    width:165px;
+    background-color: rgba(127, 255, 212, 0);
+}
+
+.Nav_Bar-Link{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.Nav_Bar-Link:hover{
+    color: rgb(50, 105, 255);
+}
+
+#Account-Btn:hover{
+    color: rgb(50, 105, 255);
+}
+
+.Post-AD-Btn{
+    width: 135px;
+    height: 45px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight:bold;
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(20, 170, 0);
+    border-width: 0;
+    border-radius: 4px;
+}
+
+.Post-AD-Btn:hover{
+    background-color: rgb(0, 102, 0);
+}
+
+#Account-Btn{
+    height: 30px;
+    position: relative;
+    top:-3px;
+    background-color: rgba(250, 235, 215, 0);
+    color: rgb(255, 255, 255);
+    border-width: 0;
+}
+
+.Side-Panel{
+    position: fixed;
+    left:0px;
+}
+
+.Account-Popup{
+    position: absolute;
+    top:80px;
+    right:65px;
+}

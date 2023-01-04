@@ -1,0 +1,102 @@
+.Side_Bar{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: fixed;
+    height: 100vh;
+    width:240px;
+    z-index: 2;
+    top: 0px;
+    background-color: rgb(0, 19, 53);
+}
+
+.Side_Bar-Brand{
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Nav-Brand{
+    width:160px;
+    height: auto;
+}
+
+.Close-Bar{
+    border-width: 0;
+    background-color:rgba(0, 255, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Side_Bar-Content{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap:10px;
+}
+
+.Brand-Side{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: rgb(28, 97, 202);
+}
+
+.Side_Bar-Content a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding-left: 7px;
+}
+
+.Side_Bar-Content a:hover{
+    color: rgb(53, 73, 255);
+}
+
+.Side_Bar-Content button{
+    display: flex;
+    flex-direction: row;
+    width: 70px;
+    border-width: 0;
+    background-color: rgba(240, 248, 255, 0);
+    color: rgb(255, 255, 255);
+}
+
+.Side_Bar-Content button:hover{
+    color: rgb(54, 74, 255);
+}
+
+.Change-Language{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Change-Language hr{
+    width:80%;
+    height: 2px;
+    background-color: rgb(175, 190, 204);
+}
+
+.Change-Language button{
+    width:90px;
+    height: 33px;
+    border-width: 0;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    background-color: rgba(0, 96, 151, 0.514);
+}
+
+.Change-Language button:hover{
+    background-color: rgba(3, 21, 182, 0.37);
+}
+
+.Change-Language p{
+    color: aliceblue;
+}
+
+.Account-Popup{
+    position: absolute;
+    top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}

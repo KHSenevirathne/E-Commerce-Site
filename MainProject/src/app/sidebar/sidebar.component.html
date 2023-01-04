@@ -1,0 +1,39 @@
+<div *ngIf="showSide_Bar" class="Side_Bar">
+
+    <div class="Side_Bar-Brand">
+        <div class="row">
+            <div class="col-12 d-flex justify-content-end">
+                <button class="Close-Bar mt-3" (click)="showSide_Bar = !showSide_Bar"><i class="bi bi-arrow-left-circle"></i>&nbsp;Back&nbsp;</button>
+            </div>
+
+            <div class="col-12 d-flex pt-5 justify-content-center">
+                <img class="Nav-Brand" src="../../assets/Company-Logo.png">
+            </div>
+        </div>
+
+        <div class="Side_Bar-Content mt-5 ps-4">
+            <a href="#"><i class="bi bi-globe-americas"></i>&nbsp;&nbsp;All Ads</a>
+            <a href="#"><i class="bi bi-whatsapp"></i>&nbsp;&nbsp;Chat</a>
+            <button><i class="bi bi-person-circle"></i>&nbsp;&nbsp;Account</button>
+        </div>
+    </div>
+
+    <div class="Change-Language mb-5">
+        <hr>
+        <p><i class="bi bi-translate"></i>&nbsp;Choose your Language</p>
+        <div class="row ps-4">
+            <div class="col-5 py-2">
+                <button>English</button>
+            </div>
+
+            <div class="col-5 py-2">
+                <button>සිංහල</button>
+            </div>
+
+            <div class="col-10 ps-4 d-flex justify-content-center">
+                <button>தமிழ்</button>
+            </div>
+        </div>
+    </div>
+
+</div>

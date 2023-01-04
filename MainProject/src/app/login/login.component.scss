@@ -1,0 +1,99 @@
+.Login-Form{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.Login-Head{
+    display: flex;
+    flex-direction: column;
+}
+
+.Login-Head h4{
+    font-size: 22px;
+    color: rgb(0, 6, 75);
+}
+
+.Login-Head p{
+    margin-top: -8px;
+    font-size: 14px;
+    color: rgb(119, 119, 119);
+}
+
+.Remember{
+    display: flex;
+    flex-direction: row;
+}
+
+.Remember input{
+    margin-top: -13px;
+}
+
+.Field p{
+    font-size: 13px;
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    color: rgb(0, 1, 65);
+}
+
+.Field input{
+    width: 100%;
+    height:30px;
+    border-style:solid;
+    border-width: 1px;
+    border-color: rgb(212, 212, 212);
+    font-size: 13px;
+    padding-left: 5px;
+}
+
+.Field input::placeholder{
+    color: rgb(180, 180, 180);
+    font-style: italic;
+}
+
+.Options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Options button{
+    height: 24px;
+    padding:0px;
+    font-size: 13px;
+    border-style: none;
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.Options p{
+    font-size: 13px;
+    padding-top: 2px;
+    padding-left: 4px;
+}
+
+.Sign-Button button{
+    width: 100%;
+    border-style: none;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    height: 31px;
+    background-color:rgb(0, 8, 92);
+}
+
+.Navigate-Register{
+    display: flex;
+    flex-direction: row;
+}
+
+.Navigate-Register p{
+    font-size: 14px;
+}
+
+.Navigate-Register a{
+    font-size: 14px;
+    text-decoration: none;
+    padding-left: 4px;
+}
